@@ -34,16 +34,14 @@ Diamond is a high-performance DNA sequence aligner. Follow these steps to instal
 
 ### Step 2.1: Download the Latest Release
 1. Visit the Diamond GitHub releases page at [Diamond Releases on GitHub](https://github.com/bbuchfink/diamond/releases) to download the latest version.
-2. Select the version suitable for your Windows operating system, typically a `.exe` file.
+2. Select the version suitable for your Windows operating system, the `diamond-windows.zip` file, which contains a `.exe` file.
+3. Unzip the downloaded file, navigate to the extracted folder, and copy its path. The path may look similar to `C:\Users\youruser\Downloads\diamond-windows`.
 
-### Step 2.3:  Run the Installer
-1. Execute the downloaded file to install Diamond.
-2. Follow the on-screen instructions to complete the installation.
-
-### Step 2.4:  Verify the Installation
+### Step 2.3:  Verify the Installation
 1. To verify that Diamond has been installed correctly, open Command Prompt.
-2. Type `diamond --help` and press Enter.
-3. If the installation was successful, you will see available options.
+2. Type `cd C:\Users\youruser\Downloads\diamond-windows` and press Enter.
+3. Type `diamond --help` and press Enter.
+4. If the installation was successful, you will see available options.
 
 **Note:** For detailed instructions and troubleshooting, refer to the GitHub page and the software's help command.
 
