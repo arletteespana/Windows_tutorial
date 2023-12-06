@@ -56,7 +56,13 @@ BLAST (Basic Local Alignment Search Tool) is a powerful tool for genomic and pro
 1. Run the installer you downloaded from the NCBI FTP site to install BLAST+ on your Windows system.
 2. Follow the on-screen instructions to complete the installation.
 
-**Note:** For detailed instructions and troubleshooting, consult the BLAST+ user manual available on the [NCBI website](https://blast.ncbi.nlm.nih.gov/Blast.cgi?PAGE_TYPE=BlastDocs&DOC_TYPE=Download).
+### Step 3.3:  Verify the Installation
+1. To verify that BLAST+ has been installed correctly, open Command Prompt.
+2. Type `cd C:\Users\youruser\Downloads` and press Enter.
+3. Type `blastdbcmd -version` and press Enter.
+4. If the installation was successful, you will see the version of Python you have installed.
+
+**Note:** For detailed instructions and troubleshooting, consult the BLAST+ user manual available on the [NCBI website](https://www.ncbi.nlm.nih.gov/books/NBK52637/).
 
 ## Step 4: Install REvolutionH-tl
 After setting up Python, Diamond, and BLAST, you can proceed to install REvolutionH-tl.
